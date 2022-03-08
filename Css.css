@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: rgb(235, 34, 168);
+    margin-top: 40px;
+    text-align: center;
+    font-size: 80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: color 1s;
+}
+
+h1:hover {
+    color: blueviolet;
+}
+
+#impressum {
+    color: rgb(44, 218, 145);
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: small;
+    font-family: monospace;
+    transition: color 2s;
+}
+
+#impressum:hover {
+    color: rgb(229, 29, 236);
+}
+
+.Product img {
+    width: 90%;
+    max-width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.Audio {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
